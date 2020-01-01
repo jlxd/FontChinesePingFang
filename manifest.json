@@ -1,0 +1,15 @@
+{
+   "manifest_version": 2,
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/PingFang.css" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "description": "字体换成苹方",
+   "name": "字体换成苹方",
+   "version": "1.0.3",
+   "permissions": [ "activeTab" ],
+   "icons": {
+      "128": "128.png"
+   }
+}
